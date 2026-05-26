@@ -16,7 +16,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "firebase/auth";
-import { signIn, signUp } from "@/lib/actions/auth.actions";
+import { signIn, signUp } from "@/lib/actions/auth.action";
 import { auth } from "@/firebase/client";
 
 const authFormSchema = (type: FormType) => {
